@@ -1,0 +1,17 @@
+FLASK APP TUTORIAL
+1. membuat enviroment app # py -m venv name_project
+2. setelah selesai, menginstall beberapa package:
+   a. pip install flask
+   b. pip install flask-migrate
+   c. pip install flask-mysqldb
+   d. pip install pymysql
+   e. pip install SQLAlchemy
+3. membuat folder app di dalam nama_project
+4. kemudian membuat __init__.py untuk menjalankan aplikasi dan routes.py untuk url aplikasi
+5. membuat .env untuk setting flask app dan db
+6. membuat server.py untuk menghubungkan apk dengan db
+7. membuat config.py untuk membaca db dan server pada file env
+8. membuat folder controller dan model di dalam folder app
+9. untuk menentukan settingan flask benar atau tidak,
+        terminal -> 'flask db init'
+10. tambahkan __init__.py pada folder model
